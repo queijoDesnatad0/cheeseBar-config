@@ -7,21 +7,18 @@
       </object>
     </child>
     <child>
-      <object class="GtkMenuItem" id="hibernate">
-        <property name="label">Hibernate</property>
+      <object class="GtkMenuItem" id="logout">
+        <property name="label">LogOut</property>
+      </object>
+    </child>
+    <child>
+      <object class="GtkMenuItem" id="reboot">
+        <property name="label">Reboot</property>
       </object>
     </child>
     <child>
       <object class="GtkMenuItem" id="shutdown">
         <property name="label">Shutdown</property>
-      </object>
-    </child>
-    <child>
-      <object class="GtkSeparatorMenuItem" id="delimiter1"/>
-    </child>
-    <child>
-      <object class="GtkMenuItem" id="reboot">
-        <property name="label">Reboot</property>
       </object>
     </child>
   </object>
